@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="gallery-header">
+        <h1>Gallery page</h1>
+        <p>Explore our collection of landscapes, portraits, and architecture.</p>
+        
+        <!-- Filter Buttons -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="landscapes">Landscapes</button>
+            <button class="filter-btn" data-filter="portraits">Portraits</button>
+            <button class="filter-btn" data-filter="architecture">Architecture</button>
+        </div>
+    </header>
+
+    <main class="gallery-grid">
+        
+        <div class="gallery-card" data-category="landscapes">
+            <div class="card-image-wrapper">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.Os2od9_X9kldrhYdslOxaAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Mountain View">
+                <span class="category-tag">Landscapes</span>
+                <div class="overlay">
+                    <p>A breathtaking view of majestic mountains under the beautiful sky.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Mountain Majesty</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="portraits">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=80" alt="Portrait Studio">
+                <span class="category-tag">Portraits</span>
+                <div class="overlay">
+                    <p>A striking portrait capturing genuine emotion and natural light.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Urban Portrait</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="architecture">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&auto=format&fit=crop&q=80" alt="Modern Building">
+                <span class="category-tag">Architecture</span>
+                <div class="overlay">
+                    <p>Sleek lines and modern glass architecture piercing the sky.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Glass Tower</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="landscapes">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&auto=format&fit=crop&q=80" alt="Forest Pathway">
+                <span class="category-tag">Landscapes</span>
+                <div class="overlay">
+                    <p>A serene pathway winding through a lush, green forest.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Enchanted Forest</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="portraits">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80" alt="Man Portrait">
+                <span class="category-tag">Portraits</span>
+                <div class="overlay">
+                    <p>Professional headshot showcasing confidence and character.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Focused Gaze</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="architecture">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80" alt="Interior Architecture">
+                <span class="category-tag">Architecture</span>
+                <div class="overlay">
+                    <p>Minimalist interior design featuring symmetrical structural elements.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Minimalist Space</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="landscapes">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80" alt="Tropical Beach">
+                <span class="category-tag">Landscapes</span>
+                <div class="overlay">
+                    <p>Crystal clear turquoise waters washing over white sandy shores.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Tropical Paradise</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="portraits">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=80" alt="Smiling Woman">
+                <span class="category-tag">Portraits</span>
+                <div class="overlay">
+                    <p>A candid expression of joy lit by the golden hour sun.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Golden Smile</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="architecture">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?w=600&auto=format&fit=crop&q=80" alt="Historic Bridge">
+                <span class="category-tag">Architecture</span>
+                <div class="overlay">
+                    <p>Intricate ironwork and engineering brilliance of a historic bridge.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Historic Bridge</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="landscapes">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&auto=format&fit=crop&q=80" alt="Hiker Landscape">
+                <span class="category-tag">Landscapes</span>
+                <div class="overlay">
+                    <p>An adventurer looking out over a vast valley at sunrise.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>The Explorer</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="portraits">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop&q=80" alt="Thoughtful Portrait">
+                <span class="category-tag">Portraits</span>
+                <div class="overlay">
+                    <p>A dramatic monochrome portrait highlighting texture and depth.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Thoughtful Profile</h3>
+            </div>
+        </div>
+
+        <div class="gallery-card" data-category="architecture">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&auto=format&fit=crop&q=80" alt="Modern House">
+                <span class="category-tag">Architecture</span>
+                <div class="overlay">
+                    <p>Contemporary residential architecture blending with nature.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <h3>Modern Villa</h3>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const cards = document.querySelectorAll('.gallery-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                cards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
